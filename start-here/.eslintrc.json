@@ -1,0 +1,20 @@
+{
+    "extends": [
+        "eslint: recomended",
+        "plugin: import/errors",
+        "prettier"
+    ],
+    "rules": {
+        "no-console": 1
+    },
+    "plugins": ["import"],
+    "parrserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    }
+}
